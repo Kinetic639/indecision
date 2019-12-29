@@ -1,0 +1,19 @@
+@media (min-width: $desktop-breakpoint) {
+ 
+  .add-option {
+    flex-direction: row;
+
+    &__input {
+        margin: 0 $s-size 0 0;
+
+    }
+  }
+
+  .big-button {
+    margin-bottom: $xl-spacing;
+  }
+
+  .header {
+    margin-bottom: $xl-spacing;
+  }
+}
