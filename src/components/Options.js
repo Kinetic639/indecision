@@ -9,11 +9,12 @@ const Options = (props) => (
         Remove All
       </button>
     </div>
-    <div className="widget__message">
-      {props.options.length === 0 && (
+
+    {props.options.length === 0 && (
+      <div className="widget__message">
         <p>Please add an option to get started!</p>
-      )}
-    </div>
+      </div>
+    )}
     {props.options.map((option, index) => (
       <Option
         key={option}
