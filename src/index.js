@@ -1,9 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./styles/styles.scss";
-import App from "./components/App";
-import * as serviceWorker from "./serviceWorker";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { App } from './components/App';
+import './styles/styles.css';
 
-ReactDOM.render(<App />, document.getElementById("root"));
-
-serviceWorker.unregister();
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);

@@ -1,9 +1,9 @@
-import React from "react";
-import Modal from "react-modal";
-import ReactModal from "react-modal";
-ReactModal.setAppElement("#root");
+import React from 'react';
+import Modal from 'react-modal';
+import ReactModal from 'react-modal';
+ReactModal.setAppElement('#root');
 
-export default function OptionModal(props) {
+export const OptionModal = (props) => {
   return (
     <Modal
       isOpen={!!props.selectedOption}
@@ -21,4 +21,4 @@ export default function OptionModal(props) {
       </button>
     </Modal>
   );
-}
+};
