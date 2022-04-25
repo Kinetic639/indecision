@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/random-value-picker/static/css/main.00c94259.css",
+    "main.js": "/random-value-picker/static/js/main.8e4a86c4.js",
+    "index.html": "/random-value-picker/index.html",
+    "main.00c94259.css.map": "/random-value-picker/static/css/main.00c94259.css.map",
+    "main.8e4a86c4.js.map": "/random-value-picker/static/js/main.8e4a86c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00c94259.css",
+    "static/js/main.8e4a86c4.js"
+  ]
+}
